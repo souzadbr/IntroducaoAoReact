@@ -29,6 +29,9 @@ export default (porps) => (
         </Card>
         <Card titulo="#05- Condicional">
             <Condicional numero={10}/>
+        </Card>   
+        <Card titulo="#06- Condicional com If">
+            <Condicional numero={11}/>
         </Card>    
        </div>
 )
