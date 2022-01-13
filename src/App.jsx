@@ -4,6 +4,7 @@ import ComParametro from "./components/ComParametro";
 import ComFilhos from "./components/ComFilhos";
 import Card from "./components/layout/Card";
 import Repeticao from "./components/Repeticao";
+import Condicional from "./components/Condicional";
 import './App.css'
 
 
@@ -26,8 +27,8 @@ export default (porps) => (
             </ul>
              </ComFilhos>
         </Card>
-        <Card titulo="#04 - Repetição">
-            <Repeticao></Repeticao>
-        </Card>
- </div>
+        <Card titulo="#05- Condicional">
+            <Condicional numero={10}/>
+        </Card>    
+       </div>
 )
